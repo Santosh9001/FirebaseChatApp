@@ -10,14 +10,18 @@ import dagger.Provides;
 @Module
 public class ApplicationModule {
 
-    private final Application application;
+    private final ChatApplication application;
 
-    public ApplicationModule(Application application) {
+    public ApplicationModule(ChatApplication application) {
         this.application = application;
     }
 
     @Provides
-    @Singleton
+    ChatApplication provideChatApplication(){
+        return application;
+    }
+
+    @Provides
     Application provideApplication(){
         return application;
     }

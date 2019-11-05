@@ -15,7 +15,7 @@ public class MainActivity extends BaseActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.fragment_layout);
 
-        AndroidInjection.inject(this);
+        //AndroidInjection.inject(this);
 
         FragmentManager manager = getSupportFragmentManager();
         ChatsFragment fragment = (ChatsFragment) manager.findFragmentByTag(TAG);

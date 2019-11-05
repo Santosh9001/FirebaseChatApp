@@ -8,7 +8,7 @@ import javax.inject.Singleton;
 import dagger.Component;
 
 @Singleton
-@Component(modules = {ApplicationModule.class,RoomModule.class})
+@Component(modules = {ApplicationModule.class, RoomModule.class})
 public interface ApplicationComponent {
 
     void inject(ChatsFragment chatsFragment);

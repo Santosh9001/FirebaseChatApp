@@ -17,6 +17,6 @@ public interface ChatsDao {
     LiveData<List<Chats>> getChatLists();
 
     @Insert(onConflict = OnConflictStrategy.REPLACE)
-    Chats insertChatItems(Chats chats);
+    Long insertChatItems(Chats chats);
 
 }

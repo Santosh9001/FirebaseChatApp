@@ -13,15 +13,15 @@ import dagger.Provides;
 @Module
 public class RoomModule {
 
-    private final ChatsDatabse chatsDatabse;
+    private final ChatsDatabase chatsDatabase;
 
 
     public RoomModule(Application application) {
-        this.chatsDatabse = Room.databaseBuilder(
+        this.chatsDatabase = Room.databaseBuilder(
                 application,
-                ChatsDatabse.class,
-                "Chats.db").
-                build();
+                ChatsDatabase.class,
+                "Chats.db"
+        ).build();
     }
 
     @Provides
@@ -32,14 +32,14 @@ public class RoomModule {
 
     @Provides
     @Singleton
-    ChatsDao provideChatsItemDao(ChatsDatabse database){
+    ChatsDao provideChatsItemDao(ChatsDatabase database){
         return database.chatsDao();
     }
 
     @Provides
     @Singleton
-    ChatsDatabse provideChatsDatabase(Application application){
-        return chatsDatabse;
+    ChatsDatabase provideChatsDatabase(Application application){
+        return chatsDatabase;
     }
 
     @Provides

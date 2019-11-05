@@ -180,7 +180,7 @@ public class ChatsFragment extends Fragment {
         chatListViewModel.getChatsLists().observe(this, new Observer<List<Chats>>() {
             @Override
             public void onChanged(List<Chats> chats) {
-                Log.e("Chats", chats.get(0).getMessage() );
+                //Log.e("Chats", chats.get(0).getMessage() );
             }
         });
     }

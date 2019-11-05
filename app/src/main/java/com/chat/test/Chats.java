@@ -16,21 +16,13 @@ import androidx.room.PrimaryKey;
 @Entity(tableName = "Chats")
 public class Chats {
 
-    @SerializedName("message")
-    @Expose
     private String message;
 
-    @SerializedName("email")
-    @Expose
     private String user;
 
-    @SerializedName("time")
-    @Expose
     private long time;
 
-    @SerializedName("id")
-    @PrimaryKey
-    @Expose
+    @PrimaryKey(autoGenerate = true)
     private long id;
 
 
