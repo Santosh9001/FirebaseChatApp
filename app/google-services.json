@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "695730506277",
+    "firebase_url": "https://broadwaytest-42b45.firebaseio.com",
+    "project_id": "broadwaytest-42b45",
+    "storage_bucket": "broadwaytest-42b45.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:695730506277:android:5a0a3683f34d1e66d58dcc",
+        "android_client_info": {
+          "package_name": "com.chat.test"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "695730506277-0ce63eb17s5e5cb0iqiuol80hp65e1s3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAdQMuK1ATUs7RKfk6Q1seoanFEvqNQhLs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "695730506277-0ce63eb17s5e5cb0iqiuol80hp65e1s3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:695730506277:android:78c26f16d9f10720",
+        "android_client_info": {
+          "package_name": "example.santosh.net.fragmentpractice"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "695730506277-0ce63eb17s5e5cb0iqiuol80hp65e1s3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAdQMuK1ATUs7RKfk6Q1seoanFEvqNQhLs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "695730506277-0ce63eb17s5e5cb0iqiuol80hp65e1s3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
