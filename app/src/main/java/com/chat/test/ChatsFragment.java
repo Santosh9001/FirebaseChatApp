@@ -133,6 +133,9 @@ public class ChatsFragment extends Fragment {
                 user.setText(model.getUser());
                 time.setText(DateFormat.format("dd-MM-yyyy (HH:mm:ss)", model.getTime()));
                 msg.setText(model.getMessage());
+
+                // insert chats into the Chats database
+                chatListViewModel.insertChats(model);
             }
         };
 
@@ -180,7 +183,8 @@ public class ChatsFragment extends Fragment {
         chatListViewModel.getChatsLists().observe(this, new Observer<List<Chats>>() {
             @Override
             public void onChanged(List<Chats> chats) {
-                //Log.e("Chats", chats.get(0).getMessage() );
+                if (chats.size() > 0)
+                    Log.e("Chats", chats.get(0).getMessage());
             }
         });
     }
