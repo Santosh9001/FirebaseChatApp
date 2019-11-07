@@ -1,9 +1,10 @@
-package com.chat.test;
+package com.chat.test.V;
 
 import android.os.Bundle;
 
+import com.chat.test.R;
+
 import androidx.fragment.app.FragmentManager;
-import dagger.android.AndroidInjection;
 
 public class MainActivity extends BaseActivity {
 

@@ -1,6 +1,9 @@
-package com.chat.test;
+package com.chat.test.VM;
 
 import android.os.AsyncTask;
+
+import com.chat.test.DI.ChatsRepository;
+import com.chat.test.M.Chats;
 
 import java.util.List;
 

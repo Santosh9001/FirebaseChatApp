@@ -1,7 +1,10 @@
-package com.chat.test;
+package com.chat.test.DI;
 
 
 import android.app.Application;
+
+import com.chat.test.M.ChatsDao;
+import com.chat.test.M.ChatsDatabase;
 
 import javax.inject.Singleton;
 

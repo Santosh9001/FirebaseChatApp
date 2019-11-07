@@ -1,7 +1,8 @@
-package com.chat.test;
+package com.chat.test.DI;
 
 import android.app.Activity;
 import android.app.Application;
+
 
 import javax.inject.Inject;
 

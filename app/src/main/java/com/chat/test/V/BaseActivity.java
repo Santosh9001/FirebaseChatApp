@@ -1,8 +1,9 @@
-package com.chat.test;
+package com.chat.test.V;
 
 import android.view.Menu;
 import android.view.MenuItem;
 
+import com.chat.test.R;
 import com.firebase.ui.auth.AuthUI;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;

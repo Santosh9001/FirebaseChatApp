@@ -1,5 +1,7 @@
-package com.chat.test;
+package com.chat.test.M;
 
+
+import com.chat.test.M.Chats;
 
 import java.util.List;
 

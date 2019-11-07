@@ -1,10 +1,5 @@
-package com.chat.test;
+package com.chat.test.M;
 
-import android.os.Parcel;
-import android.os.Parcelable;
-
-import com.google.gson.annotations.Expose;
-import com.google.gson.annotations.SerializedName;
 
 import java.util.Date;
 

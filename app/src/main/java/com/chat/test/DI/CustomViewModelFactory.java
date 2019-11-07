@@ -1,4 +1,6 @@
-package com.chat.test;
+package com.chat.test.DI;
+
+import com.chat.test.VM.ChatListViewModel;
 
 import androidx.annotation.NonNull;
 import androidx.lifecycle.ViewModel;

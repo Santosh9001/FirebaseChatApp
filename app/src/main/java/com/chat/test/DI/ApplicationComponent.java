@@ -1,7 +1,9 @@
-package com.chat.test;
+package com.chat.test.DI;
 
 
 import android.app.Application;
+
+import com.chat.test.V.ChatsFragment;
 
 import javax.inject.Singleton;
 

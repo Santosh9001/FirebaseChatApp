@@ -1,8 +1,6 @@
-package com.chat.test;
+package com.chat.test.DI;
 
 import android.app.Application;
-
-import javax.inject.Singleton;
 
 import dagger.Module;
 import dagger.Provides;

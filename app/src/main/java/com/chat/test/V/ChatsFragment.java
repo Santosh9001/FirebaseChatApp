@@ -1,4 +1,4 @@
-package com.chat.test;
+package com.chat.test.V;
 
 
 import android.content.Intent;
@@ -21,6 +21,10 @@ import android.widget.ListView;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
+import com.chat.test.DI.ChatApplication;
+import com.chat.test.VM.ChatListViewModel;
+import com.chat.test.M.Chats;
+import com.chat.test.R;
 import com.firebase.ui.auth.AuthUI;
 import com.firebase.ui.database.FirebaseListAdapter;
 import com.firebase.ui.database.FirebaseListOptions;
